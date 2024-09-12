@@ -1,11 +1,4 @@
-let n = 5;
+const math = require("./Math");
 
-for (let i = 0; i < 5; i++) {
-  console.log("Hello ", i);
-}
-
-let argv = process.argv;
-
-for (let i = 2; i <= argv.length; i++) {
-  console.log("Hello to", argv[i]);
-}
+console.log(math.sum(1, 3));
+console.log(math.PI);
