@@ -1,11 +1,4 @@
-const sum = (a, b) => a + b;
-const mul = (a, b) => a * b;
-const g = 4;
-const PI = 3.14;
-
-module.exports = {
-  sum: sum,
-  mul: mul,
-  PI: PI,
-  g: g,
-};
+module.exports.sum = (a, b) => a + b;
+module.exports.mul = (a, b) => a * b;
+module.exports.g = 4;
+module.exports.PI = 3.14;
