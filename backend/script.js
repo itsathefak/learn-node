@@ -1,4 +1,3 @@
-const math = require("./Math");
+const info = require("./cars");
 
-console.log(math.sum(1, 3));
-console.log(math.PI);
+console.log(info);
