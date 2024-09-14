@@ -1,3 +1,3 @@
-const info = require("./cars");
+import { sum, mul } from "./Math.js";
 
-console.log(info);
+console.log(sum(1, 2));
